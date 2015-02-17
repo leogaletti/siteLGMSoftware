@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LGMSoftware - Desenvolvimento de Sites e Softwares para empresas</title>
+        <meta charset="utf-8">
+        <link rel="icon" href="faviconSiteLGM.png">
+        
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/teste.css">
+    </head>
+    <body>
+        <div id="conteudo">
+            <header>
+                <h1 id="titulo-pagina">LGMSoftware - Desenvolvimento de Sites e Softwares para empresas</h1>
+                <div id="container">
+                    <div id="pager"></div>
+                        <ul>
+                            <li id="box-1"></li>
+                            <li id="box-2"></li>
+                            <li id="box-3"></li>
+                        </ul>
+                    
+                </div>
+            </header>
+            <main>
+
+
+            </main>
+        </div>
+        <footer>
+            <span id="txtRodape">&copy; Leonardo Mello 2015</span>
+        </footer>
+        
+        <script src="js/jQueryCicleAll.js"></script>
+        
+<script src="js/jquery.js"></script>
+ 
+<!-- e aqui damos vida ao rotator -->
+<script type="text/javascript">
+	$( document ).ready( function(){
+		$( "#container ul" ).cycle({ 
+		    fx: "scrollHorz",
+		    pager: "#pager"
+		 });
+	} );
+        </script>
+    </body>
+</html>

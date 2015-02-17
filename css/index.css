@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #00887A;
+}
+
+#conteudo {
+    background-color: #007165;
+    width: 80%;
+    margin-left: 11%;
+}   
+
+#titulo-pagina {
+    text-align: center;
+    font-size: 160%;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #003B35;
+}
+
+footer {
+    background-color: #00201D;  
+    padding: 10px;
+    box-shadow: 2px 2px 2px #140F0F;
+    width: 95%;
+    margin-left: 1.8%;
+    position: fixed;
+    bottom: 0;
+}
+
+#txtRodape {
+    color: #fff;    
+}
