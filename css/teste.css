@@ -1,21 +1,16 @@
 ul, li{
-	display: block;
+	list-style-type:none
 }
  
 #container{
-	margin: auto;
+	margin-left: 6.5%;
 	padding: 10px;
-	width: 800px;
-	height: 400px;
-	overflow: hidden;
-	border: 1px solid #fff;
+	width: 95%;
 	border-radius: 5px;
-	background: rgba( 255 , 255 , 255 , .5 );
-	position: relative;
 }
  
 #box-1, #box-2, #box-3{
-	width: 800px;
+	width: 95%;
 	height: 400px;
 }
  
@@ -29,4 +24,29 @@ ul, li{
  
 #box-3{
 	background: blue;
+}
+
+#pager {
+    margin-top: 5px;   
+}
+
+#pager a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 5px;
+    background-color: #319489;
+    box-shadow: 2px 2px 2px #000;
+}
+
+#pager a:hover {
+    text-decoration: none;
+    color: #00201D;
+    padding: 5px 5px;
+    background-color: #319489;
+    box-shadow: 2px 2px 2px #000;
+}
+
+.activeSlide {
+    font-size: 130%;
+    color: #00201D;
 }
